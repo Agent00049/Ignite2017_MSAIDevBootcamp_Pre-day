@@ -1,5 +1,17 @@
+# Microsoft Ignite 2017: AI Developer Bootcamp Pre-day
 
-# Contributing
+## Overview
+
+This repository contains the materials presented at the AI Developer Bootcamp Pre-day training class at Microsoft Ignite 2017.
+
+Also, here are some links to sites mentioned during the class:
+
+* Running Bots as pre-compiled Azure Functions: see issue [here](https://github.com/Microsoft/BotBuilder/issues/2407) and add the `AzureFunctionsResolveAssembly` class to work around the issue.
+* LUIS: [language support](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-language-support)
+* Text Analytics and U-SQL: [tutorial](https://github.com/Azure-Samples/usql-cognitive-text-hello-world)
+* Trying Cognitive Services without Azure: sign up [here](https://azure.microsoft.com/en-us/try/cognitive-services/)
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
