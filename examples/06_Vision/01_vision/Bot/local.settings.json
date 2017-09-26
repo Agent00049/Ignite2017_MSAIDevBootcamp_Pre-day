@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "xBotId": "",
+    "xMicrosoftAppId": "",
+    "xMicrosoftAppPassword": "",
+    "ComputerVisionKey": "",
+    "FaceKey": "",
+    "FaceId": "",
+    "CustomVisionProjectId": "",
+    "CustomVisionKey": ""
+  },
+  "Host": {
+    "LocalHttpPort": 3978 
+  } 
+}

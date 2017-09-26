@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "xBotId": "",
+    "xMicrosoftAppId": "",
+    "xMicrosoftAppPassword": "",
+    "TranslatorServiceKey": "",
+    "TextAnalyticsKey": "",
+    "xUseTableStorageForConversationState": "",
+    "xAzureWebJobsStorage": ""
+  },
+  "Host": {
+    "LocalHttpPort": 3978 
+  } 
+}

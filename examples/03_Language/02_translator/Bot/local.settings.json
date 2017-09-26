@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "xBotId": "",
+    "xMicrosoftAppId": "",
+    "xMicrosoftAppPassword": "",
+    "TranslatorServiceKey": "",
+    "TextAnalyticsKey": ""
+  },
+  "Host": {
+    "LocalHttpPort": 3978 
+  } 
+}

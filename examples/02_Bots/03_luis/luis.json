@@ -1,0 +1,102 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.2",
+  "name": "cisbot",
+  "desc": "Finds articles and wiki entries for the given topic that the user wants to learn more about.",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "INeedInsurance"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "CrashType"
+    },
+    {
+      "name": "InsuranceType"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [
+    {
+      "actionName": "INeedInsurance",
+      "intentName": "INeedInsurance",
+      "channel": null,
+      "actionParameters": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "where are you from?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need car insurance",
+      "intent": "INeedInsurance",
+      "entities": [
+        {
+          "entity": "InsuranceType",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "i need auto insurance",
+      "intent": "INeedInsurance",
+      "entities": [
+        {
+          "entity": "InsuranceType",
+          "startPos": 7,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "where do you live?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need to insure my car",
+      "intent": "INeedInsurance",
+      "entities": [
+        {
+          "entity": "InsuranceType",
+          "startPos": 20,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "can i get a discount?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need insurance for my new car",
+      "intent": "INeedInsurance",
+      "entities": [
+        {
+          "entity": "InsuranceType",
+          "startPos": 28,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "what kind of discounts can i get?",
+      "intent": "None",
+      "entities": []
+    }
+  ]
+}

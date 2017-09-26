@@ -11,6 +11,12 @@ Also, here are some links to sites mentioned during the class:
 * Text Analytics and U-SQL: [tutorial](https://github.com/Azure-Samples/usql-cognitive-text-hello-world)
 * Trying Cognitive Services without Azure: sign up [here](https://azure.microsoft.com/en-us/try/cognitive-services/)
 
+## Examples
+
+Make sure to update the config files with the required configuration values before attempting to run the examples. The only exception here is the properties that are prefixed with `x`. These are only required if you want to run the bot with ngrok and use a public channel rather than the emulator.
+
+Also, keep in mind these are intended to be run as demos. To see the full functionality of the sample, you'll need to uncomment the relevant blocks of code.
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
