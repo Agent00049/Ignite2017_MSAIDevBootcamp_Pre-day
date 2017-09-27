@@ -17,6 +17,8 @@ Make sure to update the config files with the required configuration values befo
 
 Also, keep in mind these are intended to be run as demos. To see the full functionality of the sample, you'll need to uncomment the relevant blocks of code.
 
+For those demos that require [LUIS](www.luis.ai) or [QnA Maker](qnamaker.ai), you'll need to deploy the service first and then add the app ID and key to the relevant attributes in code. The LUIS model is under `examples/02_Bots/03_luis` and the QnA Maker model is under `examples/04_Knowledge/01_qna`.
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
