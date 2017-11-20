@@ -1,0 +1,57 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "ready-ill-bot",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "GetKindOfVehicles"
+    },
+    {
+      "name": "Greetings"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "hello",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "what kind of vehicles do you have?",
+      "intent": "GetKindOfVehicles",
+      "entities": []
+    },
+    {
+      "text": "how can I cancel a ride?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do you offer discounts for group rides?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can I take my dog with me?",
+      "intent": "None",
+      "entities": []
+    }
+  ]
+}
